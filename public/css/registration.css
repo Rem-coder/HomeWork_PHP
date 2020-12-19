@@ -1,0 +1,14 @@
+@import "app.css";
+
+.my_button{
+    left: -45px;
+    background-color: floralwhite;
+    border: 2px inset black;
+    border-radius: 5px;
+}
+
+.my_input{
+    position: relative;
+    right: 30px;
+    top: 40%;
+}

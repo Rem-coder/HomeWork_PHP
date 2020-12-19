@@ -1,0 +1,46 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #2d547b;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 98.7%;
+    height: 100px;
+    background-color: deepskyblue;
+    border: 10px inset #1a202c;
+}
+
+.window_entry{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 200px;
+    width: 400px;
+    height: 200px;
+    background-color: aliceblue;
+    border: 5px solid blue;
+    border-radius: 5px;
+}
+
+.my_button{
+    position: relative;
+    margin: auto;
+    top: 150px;
+    left: 30%;
+    background-color: floralwhite;
+    border: 2px inset black;
+    border-radius: 5px;
+}
+
+.my_input{
+    position: relative;
+    margin:auto;
+    left: 30px;
+    top: 50%;
+}
+
+
