@@ -25,6 +25,9 @@ Route::get('/inside', function () {
     return view('inside');
 }) -> name('inside');
 
+Route::post('/inside/authorization',
+    'App\Http\Controllers\AuthorizationController@Authorization') -> name('inside-authorization');
 
-Route::post('/registration/submit', 'App\Http\Controllers\RegController@Submit') -> name('registration-form');
+Route::post('/registration/submit',
+    'App\Http\Controllers\RegController@Submit') -> name('registration-form');
 
