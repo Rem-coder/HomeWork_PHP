@@ -1,4 +1,4 @@
 @section('footer')
     <div class="footer">
-        ФУТЕР
+        БОЖЕ, ДАЙ МНЕ СИЛ ЗАКОНЧИТЬ ВСЁ ЭТО!
     </div>
