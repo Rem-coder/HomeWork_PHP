@@ -17,13 +17,14 @@ Route::get('/', function () {
     return view('start_page');
 }) -> name('home');
 
+Route::get('/registration', function () {
+    return view('registration');
+}) -> name('registration');
+
 Route::get('/inside', function () {
     return view('inside');
 }) -> name('inside');
 
-Route::get('/registration', function () {
-    return view('registration');
-}) -> name('registration');
 
 Route::post('/registration/submit', 'App\Http\Controllers\RegController@Submit') -> name('registration-form');
 

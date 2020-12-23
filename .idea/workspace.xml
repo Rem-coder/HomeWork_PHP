@@ -22,9 +22,9 @@
     <list default="true" id="ff73ec54-0d55-4808-98fe-061ebdf0c6fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RegController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RegController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/my_Users.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_22_181541_create_my_Users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/registration.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/registration.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/RegRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/RegRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inside.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inside.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +179,7 @@
       <workItem from="1607458397292" duration="273000" />
       <workItem from="1608379770449" duration="9234000" />
       <workItem from="1608666378705" duration="2775000" />
-      <workItem from="1608717571638" duration="6637000" />
+      <workItem from="1608717571638" duration="9545000" />
     </task>
     <servers />
   </component>

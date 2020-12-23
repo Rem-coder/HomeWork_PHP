@@ -23,10 +23,11 @@ class RegRequest extends FormRequest
      */
     public function rules()
     {
+
         return [
-            'почта'=> 'required|email',
-            'пароль'=> 'required',
-            'имя'=> 'required'
+            'почта'=> 'required|email|unique:my__users,email',
+            'пароль'=> 'required|same:повтор_пароль',
+            'имя'=> 'required|unique:my__users,user'
         ];
     }
 
@@ -36,7 +37,10 @@ class RegRequest extends FormRequest
             'почта.required' => 'Поле почта является обязательным!',
             'имя.required' => 'Поле имя является обязательным!',
             'пароль.required' => 'Поле пароль является обязательным!',
-            'почта.email' => 'Почта должна быть корректной!'
+            'пароль.same' => 'Повтор пароля должен совпадать с оригиналом!',
+            'почта.email' => 'Почта должна быть корректной!',
+            'почта.unique' => 'Почта уже зарегестрирована!',
+            'имя.unique' => 'Такое имя уже занято!'
         ];
     }
 }

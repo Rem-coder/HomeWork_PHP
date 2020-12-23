@@ -17,6 +17,6 @@ class RegController extends Controller
 
         $user->save();
 
-        return redirect()->route('home')->with('success', 'Сообщение было добавлено');
+        return redirect()->route('home')->with('success', 'Регистрация прошла успешно!');
     }
 }
