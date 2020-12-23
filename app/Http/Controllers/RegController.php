@@ -11,9 +11,9 @@ class RegController extends Controller
     public function Submit(RegRequest $req)
     {
         $user = new my_Users();
-        $user->password = $req->input('password');
         $user->email = $req->input('почта');
-        $user->username = $req->input('имя');
+        $user->user = $req->input('имя');
+        $user->password = $req->input('пароль');
 
         $user->save();
 
