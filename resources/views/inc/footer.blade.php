@@ -1,4 +1,4 @@
 @section('footer')
     <div class="footer">
-        БОЖЕ, ДАЙ МНЕ СИЛ ЗАКОНЧИТЬ ВСЁ ЭТО!
+        @include('inc\footer_text')
     </div>
