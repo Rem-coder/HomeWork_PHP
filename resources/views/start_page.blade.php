@@ -14,8 +14,8 @@
         <form  class="my_form" action="{{route('inside-authorization')}}" method="post">
             @csrf
             <!-- Явный шаблон, придумать как выделить его. Повторяется в registration-->
-                <input class="my_input" placeholder="логин">
-                <input class="my_input" placeholder="пароль">
+                <input class="my_input" placeholder="логин" id="почта" name="почта">
+                <input class="my_input" type="password" placeholder="пароль" id="пароль" name="пароль">
                 <button type="submit" class="my_button_server">Войти</button>
         </form>
 

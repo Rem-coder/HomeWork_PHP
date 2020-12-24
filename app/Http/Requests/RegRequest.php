@@ -23,7 +23,6 @@ class RegRequest extends FormRequest
      */
     public function rules()
     {
-
         return [
             'почта'=> 'required|email|unique:my__users,email',
             'пароль'=> 'required|same:повтор_пароль',
