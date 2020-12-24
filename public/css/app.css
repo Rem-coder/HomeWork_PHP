@@ -2,6 +2,7 @@ body{
     width: 100%;
     height: 100%;
     background-color: #2d547b;
+    overflow:  hidden;
 }
 
 .footer{
@@ -70,4 +71,40 @@ body{
 
 th{
     border-bottom: 5px solid red;
+}
+
+.window_panel{
+    background-color: lightgrey;
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 1000px;
+    top:410px;
+    border: 5px solid blue;
+    border-radius: 5px;
+}
+
+
+.window_form_add{
+    width: 70%;
+    height: 100%;
+}
+
+.window_form_deleted{
+    height: 50px;
+    width: 100px;
+    margin-left: 75%;
+    margin-top: -115px;
+}
+
+.win_panel_input{
+    height: 80%;
+    width: 100%;
+}
+
+.win_panel_button{
+    position: relative;
+    border: 2px inset black;
+    border-radius: 5px;
+    left: 0;
 }
