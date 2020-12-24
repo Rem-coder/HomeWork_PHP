@@ -14,9 +14,8 @@ class RegController extends Controller
         $user->email = $req->input('почта');
         $user->user = $req->input('имя');
         $user->password = $req->input('пароль');
-
         $user->save();
-
+        session()->flush();
         return redirect()->route('home')->with('success', 'Регистрация прошла успешно!');
     }
 }

@@ -15,7 +15,7 @@
                 <input class="my_input" type="password" placeholder="введите пароль" id="пароль" name="пароль">
                 <input class="my_input" placeholder="введите имя" id="имя" name="имя">
                 <input class="my_input" type="password" placeholder="повторите пароль" id="повтор_пароль" name="повтор_пароль">
-                <button type="submit" class="my_button_server">Отправить</button>
+                <button type="submit" class="my_button_server">Регистрация</button>
         </form>
 
         <form action="{{route('home')}}" method="get">

@@ -8,6 +8,8 @@
     "css/app.css"
 @endsection
 
+@include('inc\window')
+
 @section('content')
     <div class="window_entry">
         <a style="position: absolute; font-size: 30px; font-family: 'Lucida Console'; left: 100px; top: 30px">Добро пожаловать!</a>
