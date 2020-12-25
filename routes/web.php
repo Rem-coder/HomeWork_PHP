@@ -31,3 +31,11 @@ Route::post('/inside/authorization',
 Route::post('/registration/submit',
     'App\Http\Controllers\RegController@Submit') -> name('registration-form');
 
+Route::get('inside/exit',
+    'App\Http\Controllers\ExitController@Exit') -> name('exit-form');
+
+Route::post('inside/add',
+    'App\Http\Controllers\MessageAddController@Add') -> name('mess_add-form');
+
+Route::get('inside/get',
+    'App\Http\Controllers\MessageAddController@GetData') -> name('get-data');

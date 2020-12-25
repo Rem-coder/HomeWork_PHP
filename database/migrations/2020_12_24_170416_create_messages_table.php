@@ -6,17 +6,18 @@ use Illuminate\Support\Facades\Schema;
 
 class CreateMessagesTable extends Migration
 {
-* @return void
-*/
-    public function up()
     /**
      * Run the migrations.
      *
+     * @return void
+     */
+    public function up()
     {
         Schema::create('messages', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('user');
             $table->text('message');
+            $table->timestamps();
         });
     }
 

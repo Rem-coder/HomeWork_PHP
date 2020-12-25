@@ -108,3 +108,11 @@ th{
     border-radius: 5px;
     left: 0;
 }
+
+.exit_button{
+    position: absolute;
+    top: 520px;
+    right: 30px;
+    border: 2px inset black;
+    border-radius: 5px;
+}

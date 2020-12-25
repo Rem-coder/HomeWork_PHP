@@ -15,6 +15,9 @@
 
 @section('content')
     <h1 style="position:absolute">{{session()->all()['user']}}</h1>
-    <h1 style="position:absolute; top: 50px">Внутри сайта</h1>
 @endsection
 
+<form action="{{route('exit-form')}}" method="get">
+    @csrf
+    <button class="exit_button"> ВЫХОД </button>
+</form>
