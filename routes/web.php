@@ -39,3 +39,6 @@ Route::post('inside/add',
 
 Route::get('inside/get',
     'App\Http\Controllers\MessageAddController@GetData') -> name('get-data');
+
+Route::post('inside/delete',
+    'App\Http\Controllers\MessageAddController@DeleteMessage') -> name('delete-message');

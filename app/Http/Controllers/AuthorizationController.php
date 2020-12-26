@@ -7,6 +7,7 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use \App\Http\Requests\AuthorizationRequest;
 use Illuminate\Support\Facades\DB;
+use \App\Http\Controllers\MessageAddController;
 
 class AuthorizationController extends Controller
 {
@@ -19,7 +20,9 @@ class AuthorizationController extends Controller
         $req->session()->put('email', $req->input('почта'));
         $req->session()->put('user', $this->Entry()[$req->input('почта')]);
         if($req->session()->all()['email'] == $req->input('почта'))
+        {
             return redirect()->route('inside')->with('success', 'Добро пожаловать ' . $req->session()->all()['user'] . '!');
+        }
         return redirect()->route('home')->with('success', 'Вы не вошли!');
 
     }
