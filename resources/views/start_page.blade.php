@@ -8,6 +8,7 @@
     "css/app.css"
 @endsection
 
+@include('inc\window')
 
 @section('content')
     <div class="window_entry">

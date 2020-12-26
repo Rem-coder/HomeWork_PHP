@@ -11,7 +11,6 @@ use \App\Http\Controllers\MessageAddController;
 
 class AuthorizationController extends Controller
 {
-    #пытаюсь реализовать сессии. Не знаю правильно-ли но что то вроде выходит
     public function Authorization(AuthorizationRequest $req)
     {
         $email_password = DB::table('my__users')->pluck('password','email');

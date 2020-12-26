@@ -14,7 +14,7 @@
 
 
 @section('content')
-    <h1 style="position:absolute">{{session()->all()['user']}}</h1>
+
 @endsection
 
 <form action="{{route('exit-form')}}" method="get">

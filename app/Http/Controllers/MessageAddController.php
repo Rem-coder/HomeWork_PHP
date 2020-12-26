@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\messages;
-use Carbon\Carbon;
 
 class MessageAddController extends Controller
 {
@@ -19,7 +18,8 @@ class MessageAddController extends Controller
 
     public function GetData()
     {
-        return view('window', ['data' => messages::all()]);
+        $data = new messages;
+        return view('window', ['data' => $data->all()]);
     }
 
     public function DeleteMessage(Request $req)

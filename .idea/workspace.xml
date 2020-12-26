@@ -24,9 +24,8 @@
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthorizationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthorizationController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MessageAddController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MessageAddController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/inc/window.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/window.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/window_panel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/window_panel.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inside.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inside.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/start_page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/start_page.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +180,7 @@
       <workItem from="1607458397292" duration="273000" />
       <workItem from="1608379770449" duration="9234000" />
       <workItem from="1608666378705" duration="2775000" />
-      <workItem from="1608717571638" duration="51357000" />
+      <workItem from="1608717571638" duration="56106000" />
     </task>
     <servers />
   </component>
