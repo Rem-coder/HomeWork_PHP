@@ -8,16 +8,24 @@
     "css/app.css"
 @endsection
 
+@include('inc\window')
+
 @section('content')
     <div class="window_entry">
-        <!-- Явный шаблон, придумать как выделить его. Повторяется в registration-->
-        <a style="position: absolute; font-size: 30px; font-family: 'Lucida Console'; left: 50px; top: 30px">ДОБРО ПОЖАЛОВАТЬ!</a>
-        <input class="my_input" placeholder="логин">
-        <input class="my_input" placeholder="пароль">
+        <a style="position: absolute; font-size: 30px; font-family: 'Lucida Console'; left: 100px; top: 30px">Добро пожаловать!</a>
+        <form  class="my_form" action="{{route('inside-authorization')}}" method="post">
+            @csrf
+            <!-- Явный шаблон, придумать как выделить его. Повторяется в registration-->
+                <input class="my_input" placeholder="логин" id="почта" name="почта">
+                <input class="my_input" type="password" placeholder="пароль" id="пароль" name="пароль">
+                <button type="submit" class="my_button_server">Войти</button>
+        </form>
 
-        <input type="button" class="my_button" value="Регистрация">
-        <input type="button" class="my_button" value="Вход">
+        <form action="{{route('registration')}}" method="get">
+            <button class="my_button" type="submit" style="top: 75%; margin-left: 50%">Зарегистрироваться</button>
+        </form>
     </div>
+
 @endsection
 
 

@@ -1,4 +1,4 @@
 @section('footer')
     <div class="footer">
-        ФУТЕР
+        @include('inc\footer_text')
     </div>

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href= @yield('style')>
 </head>
 <body>
+    @include('messages')
     @yield('content')
     @include('inc.footer')
 </body>
